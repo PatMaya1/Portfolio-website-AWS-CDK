@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patricio Maya - Resume</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        h1 {
+            margin: 0;
+            color: #2c3e50;
+        }
+        
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 10px 0;
+        }
+        
+        section {
+            margin-bottom: 25px;
+        }
+        
+        h2 {
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 5px;
+            color: #2c3e50;
+        }
+        
+        .experience-item, .education-item, .project-item {
+            margin-bottom: 15px;
+        }
+        
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+        }
+        
+        .item-title {
+            font-weight: bold;
+        }
+        
+        ul {
+            margin-top: 5px;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+        
+        .skill-category {
+            margin-bottom: 10px;
+        }
+        
+        .skill-name {
+            font-weight: bold;
+        }
+
+        .personal-statement {
+            font-style: italic;
+            line-height: 1.8;
+            text-align: justify;
+        }
+
+        .download-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #2c3e50;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            transition: background-color 0.3s ease;
+        }
+
+        .download-btn:hover {
+            background-color: #34495e;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Patricio Maya</h1>
+        <div class="contact-info">
+            <span>patmaya123@outlook.com</span>
+            <span>+52 8441842155</span>
+        </div>
+    </header>
+
+    <section>
+        <h2>Personal Statement</h2>
+        <p class="personal-statement">
+            A motivated and innovative Computer Engineering student with a strong passion for
+            learning and problem-solving. Dedicated to leveraging technology to simplify everyday
+            challenges. Experienced in software development, cloud computing, and hackathon
+            competitions with a proven track record of creating practical solutions.
+        </p>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <div class="education-item">
+            <div class="item-header">
+                <span>Tecnológico de Monterrey</span>
+                <span>2021 – July 2025</span>
+            </div>
+            <div>BSc in Computer Engineering Technologies</div>
+        </div>
+        <div class="education-item">
+            <div class="item-header">
+                <span>AWS Certification Challenge (Cloud Practitioner)</span>
+                <span>In Progress</span>
+            </div>
+            <div>AWS</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Work Experience</h2>
+        <div class="experience-item">
+            <div class="item-header">
+                <span>Solutions Architect Intern</span>
+                <span>Jan 2024 - Mar 2024 (3 months)</span>
+            </div>
+            <div class="item-title">TotalCloud</div>
+            <div>Monterrey, Nuevo León, México • Remote</div>
+            <ul>
+                <li>Contributed to cloud architecture solutions and implementation strategies</li>
+                <li>Assisted in designing scalable and reliable cloud infrastructure</li>
+                <li>Collaborated with cross-functional teams to develop technical specifications</li>
+            </ul>
+        </div>
+        
+        <div class="experience-item">
+            <div class="item-header">
+                <span>Intern Software Engineer</span>
+                <span>2024</span>
+            </div>
+            <div class="item-title">Konfío</div>
+            <ul>
+                <li>Gained hands-on software development experience in a professional environment</li>
+                <li>Applied analytical and problem-solving skills to overcome project challenges</li>
+                <li>Successfully managed small-scale software development projects from conception to completion</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Leadership & Extracurricular Activities</h2>
+        <div class="experience-item">
+            <div class="item-header">
+                <span>AWS Cloud Club Captain</span>
+                <span>2023-2024</span>
+            </div>
+            <ul>
+                <li>Organized and coordinated technical events to foster learning and encourage student participation</li>
+                <li>Established and maintained valuable relationships with industry professionals</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+        <div class="project-item">
+            <div class="item-header">
+                <span>Space Debris Visualizer | NASA Space Apps Hackathon</span>
+                <span>2021</span>
+            </div>
+            <ul>
+                <li>Developed an interactive 3D visualization of space debris in real-time</li>
+                <li>Implemented using JavaScript, React, CesiumJS, and Resium for rendering and data processing</li>
+            </ul>
+        </div>
+        <div class="project-item">
+            <div class="item-header">
+                <span>Redesign AI Maya | Hackathon Banorte</span>
+                <span>2023</span>
+            </div>
+            <ul>
+                <li>Created a comprehensive redesign proposal for Banorte's AI assistant</li>
+                <li>Designed an intuitive UX/UI in Figma and proposed implementation of advanced AI models (Bloom & Whisper) for enhanced user interaction</li>
+            </ul>
+        </div>
+        <div class="project-item">
+            <div class="item-header">
+                <span>Blue Yonder Challenge | HackMTY</span>
+                <span>2022</span>
+            </div>
+            <ul>
+                <li>Developed an innovative platform enabling hospitals to efficiently redistribute soon-to-expire medications</li>
+                <li>Utilized Python and FastAPI for robust backend development, and implemented Velo for responsive frontend</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <div class="skill-name">Programming Languages:</div>
+                <div>C++ (Basic), HTML (Intermediate), Python (Basic), SQL (Basic)</div>
+            </div>
+            <div class="skill-category">
+                <div class="skill-name">Tools & Platforms:</div>
+                <div>Linux (Basic), Figma</div>
+            </div>
+            <div class="skill-category">
+                <div class="skill-name">Cloud Computing:</div>
+                <div>AWS (Cloud Practitioner)</div>
+            </div>
+            <div class="skill-category">
+                <div class="skill-name">Languages:</div>
+                <div>Spanish (Native), English (Professional)</div>
+            </div>
+        </div>
+    </section>
+    
+    <button class="download-btn" onclick="window.print()">Download CV as PDF</button>
+</body>
+</html>

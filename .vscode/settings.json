@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./patricio_maya_cv"
+    ]
+}
